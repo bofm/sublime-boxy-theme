@@ -1,0 +1,20 @@
+
+// Tooltips Background
+// ===========================================================================
+
+{
+  "class": "tool_tip_control",
+  "layer0.opacity": 1.0,
+  "layer1.tint": [0, 0, 0],
+  "layer1.opacity": 0.25,
+  "content_margin": [10, 5]
+},
+
+// Tooltips Text
+// ===========================================================================
+
+{
+  "class": "tool_tip_label_control",
+  "font.size": 11,
+  "color": [<%= ui.base.white.rgb %>]
+},

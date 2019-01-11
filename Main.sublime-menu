@@ -1,0 +1,76 @@
+[
+  {
+    "id": "preferences",
+    "children":
+    [
+      {
+        "caption": "Package Settings",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "Boxy Theme",
+            "children":
+            [
+              {
+                "caption": "Activation",
+                "command": "boxy_activate"
+              },
+              {
+                "caption": "Configuration",
+                "command": "boxy_config"
+              },
+              {
+                "caption": "Extras",
+                "command": "boxy_extras"
+              },
+              {
+                "caption": "Preferences",
+                "command": "edit_settings", "args":
+                {
+                  "base_file": "${packages}/Boxy Theme/Preferences.sublime-settings",
+                  "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+                }
+              },
+              { "caption": "-" },
+              {
+                "caption": "GitHub",
+                "command": "boxy_repo"
+              },
+              {
+                "caption": "Package Control",
+                "command": "boxy_package_control"
+              },
+              {
+                "caption": "ST Forum",
+                "command": "boxy_forum"
+              },
+              {
+                "caption": "Wiki",
+                "command": "boxy_wiki"
+              },
+              { "caption": "-" },
+              {
+                "caption": "Changelog",
+                "command": "boxy_changelog"
+              },
+              {
+                "caption": "Environment",
+                "command": "boxy_environment"
+              },
+              {
+                "caption": "Issues",
+                "command": "boxy_issues"
+              },
+              { "caption": "-" },
+              {
+                "caption": "Donate",
+                "command": "boxy_donate"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

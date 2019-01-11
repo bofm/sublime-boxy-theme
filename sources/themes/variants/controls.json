@@ -1,0 +1,382 @@
+// Controls <%= ui.variant.name %> Styles
+// ===========================================================================
+
+// Popup
+// ---------------------------------------------------------------------------
+
+
+{
+  "class": "popup_control",
+  "settings": ["theme_popup_border_visible"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>, 255],
+  "layer0.opacity": 1.0,
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png",
+  "layer1.opacity": 1.0,
+  "content_margin": [2, 2]
+},
+
+// Buttons
+// ---------------------------------------------------------------------------
+
+{
+  "class": "button_control",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
+},
+
+{
+  "class": "icon_button_control",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_without_transparency.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_icon_button_highlighted"],
+  "layer0.opacity": 0.05
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_icon_button_highlighted"],
+  "attributes": ["hover"],
+  "layer0.opacity": 0.09
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["left"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_left.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["right"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded_right.png"
+},
+
+{
+  "class": "icon_button_control",
+  "settings": ["theme_button_rounded", "theme_icon_button_highlighted"],
+  "attributes": ["left", "right"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_rounded.png"
+},
+
+
+//
+// Close
+//
+
+{
+  "class": "panel_close_button",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_close.png"
+},
+
+//
+// Icons
+//
+
+{
+  "class": "icon_regex",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_regex.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_regex_materialized.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_regex_atomized.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_regex_materialized.png"
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_regex_atomized.png"
+},
+
+{
+  "class": "icon_case",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_case.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_case_materialized.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_case_atomized.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_case_materialized.png"
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_case_atomized.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_word.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_word_materialized.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_word_atomized.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_word_materialized.png"
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_word_atomized.png"
+},
+
+{
+  "class": "icon_wrap",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_wrap.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_wrap_materialized.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_wrap_atomized.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_wrap_materialized.png"
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_wrap_atomized.png"
+},
+
+{
+  "class": "icon_context",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_context.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_context_materialized.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_context_atomized.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_context_materialized.png"
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_context_atomized.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_buffer.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_buffer_materialized.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_buffer_atomized.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_buffer_materialized.png"
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_buffer_atomized.png"
+},
+
+{
+  "class": "icon_reverse",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_reverse.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_selection.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_selection_materialized.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_selection_atomized.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_selection_materialized.png"
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_selection_atomized.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_preserve.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_preserve_materialized.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_preserve_atomized.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_preserve_materialized.png"
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_preserve_atomized.png"
+},
+
+{
+  "class": "icon_highlight",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_highlight.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_highlight_materialized.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_highlight_atomized.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_find_panel_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_highlight_materialized.png"
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_find_panel_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_highlight_atomized.png"
+},
+
+// Fields
+// ---------------------------------------------------------------------------
+
+//
+// Dropdown
+//
+
+{
+  "class": "dropdown_button_control",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_icons_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_icons_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_dropdown_materialized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_materialized.png"
+},
+
+{
+  "class": "dropdown_button_control",
+  "settings": ["theme_dropdown_atomized"],
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/buttons/button_dropdown_atomized.png"
+},
+

@@ -1,0 +1,62 @@
+  ____     ___   __  __ __   __
+ | __ )   / _ \  \ \/ / \ \ / /
+ |  _ \  | | | |  \  /   \ V /
+ | |_) | | |_| |  /  \    | |
+ |____/   \___/  /_/\_\   |_|
+
+
+Activation
+===========================================================================
+
+Activate the UI theme and color scheme by modifying your user preferences
+file, which you can find using the menu item Preferences → Package Settings
+→ Boxy Theme → Preferences.
+
+Also you can use commands provided by the theme:
+
+1. Open Command Palette using menu item `Tools → Command Palette...`
+2. Choose `Boxy Theme: Activation` or `Boxy Theme: Configuration`
+3. Hit `Enter`
+
+Options
+===========================================================================
+
+There are dozens of options that enable you to personalize your experience
+with Boxy Theme. See our wiki: https://github.com/ihodev/sublime-boxy/wiki
+
+Recommended Settings
+===========================================================================
+
+"always_show_minimap_viewport": true,
+"bold_folder_labels": true,
+"caret_extra_bottom": 1,
+"caret_extra_top": 1,
+"caret_extra_width": 1,
+"caret_style": "blink",
+"fade_fold_buttons": false,
+"indent_guide_options": ["draw_normal", "draw_active"],
+"line_padding_bottom": 2,
+"line_padding_top": 2,
+"overlay_scroll_bars": "enabled",
+"show_encoding": true,
+"show_line_endings": true,
+
+===========================================================================
+
+I've put a lot of time and effort into making Boxy awesome. If you love it,
+you can
+
+  _
+ | |__    _   _   _   _     _ __ ___     ___
+ | '_ \  | | | | | | | |   | '_ ` _ \   / _ \
+ | |_) | | |_| | | |_| |   | | | | | | |  __/
+ |_.__/   \__,_|  \__, |   |_| |_| |_|  \___|
+                  |___/
+                            __    __                      __
+   __ _      ___    ___    / _|  / _|   ___    ___     _  \ \
+  / _` |    / __|  / _ \  | |_  | |_   / _ \  / _ \   (_)  | |
+ | (_| |   | (__  | (_) | |  _| |  _| |  __/ |  __/    _   | |
+  \__,_|    \___|  \___/  |_|   |_|    \___|  \___|   ( )  | |
+                                                      |/  /_/
+
+https://www.patreon.com/ihodev

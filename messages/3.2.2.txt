@@ -1,0 +1,20 @@
+👓 Version 3.2.2
+===========================================================================
+
+Please run `Package Control: Satisfy Dependencies` after the update and restart ST.
+
+💅 Themes
+-------------------
+
+↪ Update configurator styles to support the latest mdpopups
+↪ Add possibility to change icon symbols of the configurator
+
+  "theme_config_marked": "✓",
+  "theme_config_unmarked": "✗",
+  "theme_config_radio_marked": "☒",
+  "theme_config_radio_unmarked": "☐",
+
+💅 Color Schemes
+-------------------
+
+↪ Fix popup styling bug when theme is installed manually

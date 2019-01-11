@@ -1,0 +1,76 @@
+{
+  "name": "Boxy Solarized Light",
+  "semanticClass": "boxy.solarized.light",
+  "uuid": "5d2818e9-7507-4e68-bc3e-64257eeaa932",
+  "ui": {
+    "id": "solarized-light",
+    "variant": {
+      "id": "light",
+      "name": "Light",
+      "highlight": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      }
+    },
+    "background": {
+      "base": {
+        "hex": "#fdf6e3",
+        "rgb": "253, 246, 227"
+      },
+      "primary": {
+        "hex": "#f5eedc",
+        "rgb": "245, 238, 220"
+      },
+      "secondary": {
+        "hex": "#ebe5d3",
+        "rgb": "235, 229, 211"
+      }
+    },
+    "foreground": {
+      "default": {
+        "hex": "#7a776e",
+        "rgb": "122, 119, 110"
+      },
+      "highlighted": {
+        "hex": "#56534d",
+        "rgb": "86, 83, 77"
+      },
+      "disabled": {
+        "hex": "#9f9b8f",
+        "rgb": "159, 155, 143"
+      },
+      "selected": {
+        "hex": "#262626",
+        "rgb": "38, 38, 38"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#fdf6e3",
+    "caret": "#657b83",
+    "foreground": "#657b83",
+    "gutter": "#fdf6e3",
+    "comment": "#93a1a1",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#dc322f",
+      "orange": "#cb4b16",
+      "yellow": "#b58900",
+      "green": "#859900",
+      "cyan": "#2aa198",
+      "blue": "#268bd2",
+      "purple": "#6c71c4",
+      "brown": "#7f2a1d",
+      "pink": "#cf4b56",
+      "violet": "#644ea0"
+    }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.solarized.light.plain.tasks",
+      "uuid": "cb89e15c-8547-4f1f-b010-786e45d22619"
+    }
+  }
+}

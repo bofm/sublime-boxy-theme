@@ -1,0 +1,128 @@
+// Scrollbars Theme Specific Styles
+// ===========================================================================
+
+// Scrollbar
+// ---------------------------------------------------------------------------
+
+//
+// Scrollbar Corner
+//
+
+{
+  "class": "scroll_corner_control",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "scroll_corner_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "scroll_corner_control",
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sheet_container_control"}],
+  "layer0.tint": [<%= ui.background.base.rgb %>]
+},
+
+{
+  "class": "scroll_corner_control",
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sidebar_container"}],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+//
+// Scrollbar Vertical
+//
+
+// Background
+
+{
+  "class": "scroll_bar_control",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sheet_container_control"}],
+  "layer0.tint": [<%= ui.background.base.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sidebar_container"}],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+//
+// Scrollbar Horizontal
+//
+
+// Background
+
+{
+  "class": "scroll_bar_control",
+  "attributes": ["horizontal"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "attributes": ["horizontal"],
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "attributes": ["horizontal"],
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sheet_container_control"}],
+  "layer0.tint": [<%= ui.background.base.rgb %>]
+},
+
+{
+  "class": "scroll_bar_control",
+  "attributes": ["horizontal"],
+  "settings": ["!overlay_scroll_bars", "theme_scrollbar_semi_overlayed"],
+  "parents": [{"class": "sidebar_container"}],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+// Scrollbar Overlayed
+// ---------------------------------------------------------------------------
+
+//
+// Scrollbar Vertical Overlayed
+//
+
+// Background
+
+{
+  "class": "scroll_bar_control",
+  "settings": ["overlay_scroll_bars"],
+  "layer0.tint": [<%= ui.variant.highlight.rgb %>]
+},
+
+//
+// Scrollbar Horizontal Overlayed
+//
+
+// Background
+
+{
+  "class": "scroll_bar_control",
+  "settings": ["overlay_scroll_bars"],
+  "attributes": ["horizontal"],
+  "layer0.tint": [<%= ui.variant.highlight.rgb %>]
+},

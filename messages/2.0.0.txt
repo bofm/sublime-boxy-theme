@@ -1,0 +1,48 @@
+👓 Version 2.0.0 - Meet Boxy
+===========================================================================
+
+Boxy has been recently re-named from Otto.
+Read more: https://github.com/ihodev/sublime-boxy/wiki/Upgrading
+
+
+💻 Quick Activation
+-------------------
+
+"theme": "Boxy Yesterday.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+
+"theme": "Boxy Tomorrow.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+
+"theme": "Boxy Ocean.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+
+"theme": "Boxy Monokai.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+
+
+💅 Themes
+-------------------
+
+↪ Review sizes of all UI controls
+↪ Simplify all options
+↪ Introduce colored bar
+↪ Introduce new appearance of the scroolbars
+↪ Introduce rounded tabs and buttons
+↪ Review purple accent
+↪ Add pug js icon
+
+
+💅 Color Schemes
+-------------------
+
+↪ Enhance color highlighting of JSON files
+↪ Add support of Git Gutter
+↪ Add support of Sublime Linter
+↪ Add support of Markdown Extended
+↪ Fix RegExp highlighting in find panel
+
+
+And many more exciting improvements and enhancements!
+See change log: https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
+See our wiki: https://github.com/ihodev/sublime-boxy/wiki

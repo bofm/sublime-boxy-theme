@@ -1,0 +1,23 @@
+👓 Version 5.0.0
+===========================================================================
+
+Starting 5.0.0 Boxy uses zz File Icons package to display file icons.
+Check it out: https://packagecontrol.io/packages/zz%20File%20Icons﻿
+
+💅 Themes
+-------------------
+
+↪ add `zz File Icons` support
+↪ add Boxy Nova theme
+↪ add minimal skin
+↪ add settings to change the minimap viewport opacity
+
+💅 Color Schemes
+-------------------
+
+↪ Add nova color scheme
+
+👍 Many thanks to
+-------------------
+
+[@mattst](https://github.com/mattst) for 002e3a7 😉

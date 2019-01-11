@@ -1,0 +1,19 @@
+👓 Version 2.0.3
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Improve regex highlighting in find panel
+↪ Fix hover state of the sidebar icons
+↪ Add saturation levels of the sidebar icons
+
+💅 Color Schemes
+-------------------
+
+↪ Highlight string interpolation placeholders
+
+👍 Many thanks to
+-------------------
+
+[@michaelblyons](https://github.com/michaelblyons) 😉

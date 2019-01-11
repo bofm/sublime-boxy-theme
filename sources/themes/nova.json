@@ -1,0 +1,131 @@
+// > BOXY NOVA
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// The most hackable theme for Sublime Text 3
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[
+  //
+  // >> Autocomplete
+  // ===========================================================================
+  // Autocomplete settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/autocomplete.json"
+  //=include "specific/autocomplete.json"
+  //=include "accents/autocomplete.json"
+  //
+  // >> Controls
+  // ===========================================================================
+  // Panel, fields, buttons settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/controls.json"
+  //=include "variants/controls.json"
+  //=include "specific/controls.json"
+  //=include "accents/controls.json"
+  //=include "options/controls.json"
+  //
+  // >> Folding
+  // ===========================================================================
+  // Folding settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/folding.json"
+  //
+  // >> Grid
+  // ===========================================================================
+  // Grid styles
+  // ===========================================================================
+  //
+  //=include "common/grid.json"
+  //=include "specific/grid.json"
+  //=include "options/grid.json"
+  //
+  // >> Minimap
+  // ===========================================================================
+  // Minimap settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/minimap.json"
+  //=include "accents/minimap.json"
+  //=include "options/minimap.json"
+  //
+  // >> Overlays
+  // ===========================================================================
+  // Overlays settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/overlays.json"
+  //=include "specific/overlays.json"
+  //=include "accents/overlays.json"
+  //=include "options/overlays.json"
+  //
+  // >> Scrollbars
+  // ===========================================================================
+  // Scrollbars settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/scrollbars.json"
+  //=include "variants/scrollbars.json"
+  //=include "specific/scrollbars.json"
+  //=include "accents/scrollbars.json"
+  //
+  // >> Sidebar
+  // ===========================================================================
+  // Sidebar panel settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/sidebar.json"
+  //=include "variants/sidebar.json"
+  //=include "specific/sidebar.json"
+  //=include "accents/sidebar.json"
+  //=include "options/sidebar.json"
+  //
+  // >> Status Bar
+  // ===========================================================================
+  // Status bar settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/statusbar.json"
+  //=include "variants/statusbar.json"
+  //=include "specific/statusbar.json"
+  //=include "accents/statusbar.json"
+  //=include "options/statusbar.json"
+  //
+  // >> Tabs
+  // ===========================================================================
+  // Tabs behavior and settings
+  // ===========================================================================
+  //
+  //=include "common/tabs.json"
+  //=include "variants/tabs.json"
+  //=include "specific/tabs.json"
+  //=include "accents/tabs.json"
+  //=include "options/tabs.json"
+  //
+  // >> Tooltips
+  // ===========================================================================
+  // Tooltip settings and behavior
+  // ===========================================================================
+  //
+  //=include "common/tooltips.json"
+  //=include "accents/tooltips.json"
+  //=include "options/tooltips.json"
+  //
+  // >> Window
+  // ===========================================================================
+  // Styles for empty window
+  // ===========================================================================
+  //
+  //=include "common/window.json"
+  //=include "specific/window.json"
+  //
+  // >> Bar
+  // ===========================================================================
+  // Styles for colored top bar
+  // ===========================================================================
+  //
+  //=include "common/bar.json"
+  //=include "variants/bar.json"
+  //=include "accents/bar.json"
+]

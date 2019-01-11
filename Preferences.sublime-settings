@@ -1,0 +1,799 @@
+// =============================================================================
+// BOXY THEME PREFERENCES
+// =============================================================================
+
+// Source: https://github.com/ihodev/sublime-boxy/wiki/Settings
+
+// All options are disabled by default, that's why you should place your
+// settings in the "Packages/User/Preferences.sublime-settings" file,
+// which overrides the settings in here, and change `false` -> `true`.
+
+// Settings may also be placed in syntax-specific setting files, for
+// example, in Packages/User/Python.sublime-settings for python files.
+
+// Table of Contents
+// -----------------------------------------------------------------------------
+// Use https://github.com/kizza/Table-of-comments for the quick navigation
+
+//  0 Configuration
+//  1 Activation
+//  2 Global
+//    2.1 Size
+//    2.2 Font
+//    2.3 Accent
+//    2.4 Icons
+//    2.5 Background
+//  3 Bar
+//  4 Tabs
+//    4.1 Tab Size
+//    4.2 Tab Font
+//    4.3 Tab Flavors
+//    4.4 Tab Misc
+//  5 Find Panels
+//    5.1 Find Panel Size
+//    5.2 Find Panel Font
+//    5.3 Find Panel Padding
+//    5.4 Find Panel Misc
+//  6 Quick Panels
+//    6.1 Quick Panel Size
+//    6.2 Quick Panel Misc
+//  7 Sidebar
+//    7.1 Sidebar Size
+//    7.2 Sidebar Font
+//    7.3 Sidebar Indent
+//    7.4 Sidebar Icons
+//    7.5 Sidebar Misc
+//  8 Status Bar
+//    8.1 Status Bar Size
+//    8.2 Status Bar Font
+//    8.3 Status Bar Misc
+//  9 Scrollbars
+// 10 Tooltips
+// 11 Grid
+// 12 Popups
+// 13 Minimap
+
+{
+  // > 0 Configuration
+  // -----------------------------------
+  // Change configurator icon symbols.
+
+  "theme_config_marked": "✓",
+  "theme_config_unmarked": "✗",
+  "theme_config_radio_marked": "☒",
+  "theme_config_radio_unmarked": "☐",
+
+  // > 1 Activation
+  // -----------------------------------
+  // Activate the UI theme and color scheme by modifying your user preferences
+  // file, which you can find using the menu item Preferences → Settings.
+
+  // DON'T FORGET TO RESTART SUBLIME TEXT AFTER ACTIVATING THE THEME.
+
+  // "theme": "Boxy Monokai.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+
+  // "theme": "Boxy Nova.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Nova.tmTheme",
+
+  // "theme": "Boxy Ocean.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+
+  // "theme": "Boxy Solarized Dark.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Dark.tmTheme",
+
+  // "theme": "Boxy Solarized Light.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Solarized Light.tmTheme",
+
+  // "theme": "Boxy Tomorrow.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+
+  // "theme": "Boxy Yesterday.sublime-theme",
+  // "color_scheme": "Packages/Boxy Theme/schemes/Boxy Yesterday.tmTheme",
+
+  // > 2 Global
+  // -----------------------------------
+
+  // Global options enable you to control some aspects of UI appearance at once.
+  // Generally, there are four kinds of global options which you can use:
+
+  //
+  // >> 2.1 Size
+  // Choose one option from this section
+
+  // Reduce size of all UI controls to extra small
+  "theme_size_xs": false,
+
+  // The default size of all UI controls
+  "theme_size_sm": false,
+
+  // Increase size of all UI controls to medium
+  "theme_size_md": false,
+
+  // Increase size of all UI controls to large
+  "theme_size_lg": false,
+
+  // Increase size of all UI controls to extra large
+  "theme_size_xl": false,
+
+  //
+  // >> 2.2 Font
+  // Choose one option from this section
+
+  // Reduce font size of all UI controls to 10 px
+  "theme_font_xs": false,
+
+  // The default font size of all UI controls is 11 px
+  "theme_font_sm": false,
+
+  // Increase font size of all UI controls to 12 px
+  "theme_font_md": false,
+
+  // Increase font size of all UI controls to 13 px
+  "theme_font_lg": false,
+
+  // Increase font size of all UI controls to 14 px
+  "theme_font_xl": false,
+
+  //
+  // >> 2.3 Accent
+  // Choose one option from this section
+
+  // The default accent of all UI controls
+  "theme_accent_blue": false,
+
+  // Set green accent color
+  "theme_accent_green": false,
+
+  // Set orange accent color
+  "theme_accent_orange": false,
+
+  // Set purple accent color
+  "theme_accent_purple": false,
+
+  // Set tangerine accent color
+  "theme_accent_tangerine": false,
+
+  // Set cyan accent color
+  "theme_accent_cyan": false,
+
+  // Set lime accent color
+  "theme_accent_lime": false,
+
+  // Set pink accent color
+  "theme_accent_pink": false,
+
+  // Set sky accent color
+  "theme_accent_sky": false,
+
+  // Set numix accent color
+  "theme_accent_numix": false,
+
+  // Set monochrome accent color
+  "theme_accent_mono": false,
+
+  //
+  // >> 2.4 Icons
+  // Choose one option from this section
+
+  // Enable a beautiful Material UI icons
+  "theme_icons_materialized": false,
+
+  // Enable a beautiful Atom UI icons
+  "theme_icons_atomized": false,
+
+  //
+  // >> 2.5 Background
+  //
+
+  // Enable the same background color for UI components
+  "theme_unified": false,
+
+  // Each one of them (except accent & background options) may be overridden by setting a
+  // similar option specific to UI control.
+
+  // For example, you want to increase font size of all UI controls via setting
+  // a global font size option. But due to this issue you can find that lower
+  // half of the tab label is cut off. In such cases just override font size by
+  // setting a font size option specific to the tab:
+
+  // "theme_font_xl": true,
+  // "theme_tab_font_sm": true,
+
+  // Or, if you want to increase the size of all UI controls but leave a small
+  // status bar, you can set these options:
+
+  // "theme_size_md": true,
+  // "theme_statusbar_size_sm": true,
+
+  //
+  // > 3 Bar
+  // -----------------------------------
+  // Bar options enable you to control some aspects of tabs' and sidebar's
+  // appearance at once.
+
+  // You can enable a beautiful bar for your Boxy Theme. The color tint fits
+  // automatically the theme accent color you chose if you want to use
+  // colored bar.
+
+  // Enable a beautiful bar based on your theme
+  "theme_bar": false,
+
+  // Enable a beautiful colored bar
+  // Works only with `theme_bar: true,`
+  "theme_bar_colored": false,
+
+  // Enable a Material UI logo
+  "theme_bar_logo_materialized": false,
+
+  // Enable an Atom UI logo
+  "theme_bar_logo_atomized": false,
+
+  // Hide bar shadow
+  "theme_bar_shadow_hidden": false,
+
+  // Also you can add a top margin to the tabs and sidebar, especially useful
+  // with the rounded tabs.
+
+  // Increase top margin of the tabs and sidebar to small
+  "theme_bar_margin_top_sm": false,
+
+  // Increase top margin of the tabs and sidebar to medium
+  "theme_bar_margin_top_md": false,
+
+  // Increase top margin of the tabs and sidebar to large
+  "theme_bar_margin_top_lg": false,
+
+  //
+  // > 4 Tabs
+  // -----------------------------------
+  // Tab options enable you to control appearance of the tabs.
+
+  //
+  // >> 4.1 Tab Size
+  //
+
+  // Reduce size of the tabs to extra small
+  "theme_tab_size_xs": false,
+
+  // The default size of tabs
+  "theme_tab_size_sm": false,
+
+  // Increase size of tabs to medium
+  "theme_tab_size_md": false,
+
+  // Increase size of tabs to large
+  "theme_tab_size_lg": false,
+
+  // Increase size of tabs to extra large
+  "theme_tab_size_xl": false,
+
+  // Increase size of tabs to extra extra large
+  "theme_tab_size_xxl": false,
+
+  // Auto adjust tab width from the name
+  "theme_tab_width_auto": false,
+
+  //
+  // >> 4.2 Tab Font
+  //
+  // Due to this issue: https://github.com/SublimeTextIssues/Core/issues/694
+  // you can find that lower half of the tab label is cut off.
+  // Vote for this bug.
+
+  // Reduce font size of tabs to 10 px
+  "theme_tab_font_xs": false,
+
+  // The default font size of tabs is 11 px
+  "theme_tab_font_sm": false,
+
+  // Increase font size of tabs to 12 px
+  "theme_tab_font_md": false,
+
+  // Increase font size of tabs to 13 px
+  "theme_tab_font_lg": false,
+
+  // Increase font size of tabs to 14 px
+  "theme_tab_font_xl": false,
+
+  // Make tab labels bold
+  "theme_tab_label_bold": false,
+
+  // Make selected tab label bold
+  "theme_tab_selected_label_bold": false,
+
+  //
+  // >> 4.3 Tab Flavors
+  //
+
+  // Add rounded corners to the tabs
+  "theme_tab_rounded": false,
+
+  // Set overlined style to the selected tab
+  "theme_tab_selected_overlined": false,
+
+  // Set underlined style to the selected tab
+  "theme_tab_selected_underlined": false,
+
+  // Set prelined style to the selected tab
+  "theme_tab_selected_prelined": false,
+
+  // Set filled style to the selected tab
+  "theme_tab_selected_filled": false,
+
+  // Set transparent style to the selected tab
+  // Especially good with accompanying `theme_tab_selected_underlined`
+  "theme_tab_selected_transparent": false,
+
+  // Set size of the tab lines to small
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
+  "theme_tab_line_size_sm": false,
+
+  // Set size of the tab lines to large
+  // When `theme_tab_selected_overlined`, `theme_tab_selected_prelined`
+  // or `theme_tab_selected_underlined` is true
+  "theme_tab_line_size_lg": false,
+
+  //
+  // >> 4.4 Tab Misc
+  //
+
+  // Show tab set line
+  "theme_tabset_line_visible": false,
+
+  // Hide left arrows
+  "theme_tab_arrows_hidden": false,
+
+  // Enable tab switch via mouse wheel
+  "theme_tab_mouse_wheel_switch": false,
+
+  // Show tab separators
+  "theme_tab_separator": false,
+
+  // Disable tab background highlighting on hover
+  "theme_tab_highlight_text_only": false,
+
+  // Starting 3.0.0 by default close button of the inactive tabs is visible
+  // on hover only, this option enables you to show it always
+  "theme_tab_close_always_visible": false,
+
+  // Enable a beautiful Material UI dirty pencil icon
+  "theme_dirty_materialized": false,
+
+  // Make dirty icon to be always colored
+  "theme_dirty_colored_always": false,
+
+  // The default accent of the dirty state
+  "theme_dirty_accent_blue": false,
+
+  // Set green accent color for the dirty state
+  "theme_dirty_accent_green": false,
+
+  // Set orange accent color for the dirty state
+  "theme_dirty_accent_orange": false,
+
+  // Set purple accent color for the dirty state
+  "theme_dirty_accent_purple": false,
+
+  // Set tangerine accent color for the dirty state
+  "theme_dirty_accent_tangerine": false,
+
+  // Set cyan accent color for the dirty state
+  "theme_dirty_accent_cyan": false,
+
+  // Set lime accent color for the dirty state
+  "theme_dirty_accent_lime": false,
+
+  // Set pink accent color for the dirty state
+  "theme_dirty_accent_pink": false,
+
+  // Set sky accent color for the dirty state
+  "theme_dirty_accent_sky": false,
+
+  // Set numix accent color for the dirty state
+  "theme_dirty_accent_numix": false,
+
+  // Enable a beautiful Material UI dropdown icon
+  "theme_dropdown_materialized": false,
+
+  // Enable a beautiful Atom UI dropdown icon
+  "theme_dropdown_atomized": false,
+
+  //
+  // > 5 Find Panels
+  // -----------------------------------
+  // Find panel options enable you to manage appearance of the misc UI
+  // components such as buttons, labels, find panel & etc.
+
+  //
+  // >> 5.1 Find Panel Size
+  //
+
+  // Reduce size of the find panel to extra extra small
+  "theme_find_panel_size_xxs": false,
+
+  // Reduce size of the find panel to extra small
+  "theme_find_panel_size_xs": false,
+
+  // The default size of the find panel
+  "theme_find_panel_size_sm": false,
+
+  // Increase size of the find panel to medium
+  "theme_find_panel_size_md": false,
+
+  // Increase size of the find panel to large
+  "theme_find_panel_size_lg": false,
+
+  // Increase size of the find panel to extra large
+  "theme_find_panel_size_xl": false,
+
+  //
+  // >> 5.2 Find Panel Font
+  //
+
+  // Reduce font size of the find panel to 10 px
+  "theme_find_panel_font_xs": false,
+
+  // The default font size of the find panel is 11 px
+  "theme_find_panel_font_sm": false,
+
+  // Increase font size of the find panel to 12 px
+  "theme_find_panel_font_md": false,
+
+  // Increase font size of the find panel to 13 px
+  "theme_find_panel_font_lg": false,
+
+  // Increase font size of the find panel to 14 px
+  "theme_find_panel_font_xl": false,
+
+  //
+  // >> 5.3 Find Panel Padding
+  //
+
+  // The default padding of the find panel
+  "theme_find_panel_padding_xs": false,
+
+  // Increase padding of the find panel to small
+  "theme_find_panel_padding_sm": false,
+
+  // Increase padding of the find panel to medium
+  "theme_find_panel_padding_md": false,
+
+  // Increase padding of the find panel to large
+  "theme_find_panel_padding_lg": false,
+
+  // Increase padding of the find panel to extra large
+  "theme_find_panel_padding_xl": false,
+
+  //
+  // >> 5.4 Find Panel Misc
+  //
+
+  // Hide find panel close button
+  "theme_find_panel_close_hidden": false,
+
+  // Make round buttons
+  "theme_button_rounded": false,
+
+  // Highlight icon buttons in find panel
+  "theme_icon_button_highlighted": false,
+
+  // Enable beautiful Material UI find panel icons
+  "theme_find_panel_materialized": false,
+
+  // Enable beautiful Atom UI find panel icons
+  "theme_find_panel_atomized": false,
+
+  //
+  // > 6 Quick Panels
+  // -----------------------------------
+  // Quick panel options enable you to control the appearance of the
+  // Command Palette, Goto Anything, Quick Switch Project & etc.
+
+  //
+  // >> 6.1 Quick Panel Size
+  //
+
+  // Reduce size of the quick panels to extra small
+  "theme_quick_panel_size_xs": false,
+
+  // The default size of the quick panels
+  "theme_quick_panel_size_sm": false,
+
+  // Increase size of the quick panels to medium
+  "theme_quick_panel_size_md": false,
+
+  // Increase size of the quick panels to large
+  "theme_quick_panel_size_lg": false,
+
+  // Increase size of the quick panels to extra large
+  "theme_quick_panel_size_xl": false,
+
+  //
+  // >> 6.2 Quick Panel Misc
+  //
+
+  // Show quick panel border
+  "theme_quick_panel_border_visible": false,
+
+  // Starting 3.0.0 quick panel selected item has no colored background,
+  // this option turns it back
+  "theme_quick_panel_item_selected_colored": false,
+
+  //
+  // > 7 Sidebar
+  // -----------------------------------
+  // Sidebar options enable you to control appearance of the sidebar
+  // UI components.
+
+  //
+  // >> 7.1 Sidebar Size
+  //
+
+  // Reduce size of the sidebar to extra extra small
+  "theme_sidebar_size_xxs": false,
+
+  // Reduce size of the sidebar to extra small
+  "theme_sidebar_size_xs": false,
+
+  // The default size of the sidebar
+  "theme_sidebar_size_sm": false,
+
+  // Increase size of the sidebar to medium
+  "theme_sidebar_size_md": false,
+
+  // Increase size of the sidebar to large
+  "theme_sidebar_size_lg": false,
+
+  // Increase size of the sidebar to extra large
+  "theme_sidebar_size_xl": false,
+
+  //
+  // >> 7.2 Sidebar Font
+  //
+
+  // Reduce font size of the sidebar to 10 px
+  "theme_sidebar_font_xs": false,
+
+  // The default font size of the sidebar is 11 px
+  "theme_sidebar_font_sm": false,
+
+  // Increase font size of the sidebar to 12 px
+  "theme_sidebar_font_md": false,
+
+  // Increase font size of the sidebar to 13 px
+  "theme_sidebar_font_lg": false,
+
+  // Increase font size of the sidebar to 14 px
+  "theme_sidebar_font_xl": false,
+
+  //
+  // >> 7.3 Sidebar Indent
+  //
+
+  // Reduce indent of the sidebar rows to extra small
+  "theme_sidebar_indent_xs": false,
+
+  // Reduce indent of the sidebar rows to small
+  "theme_sidebar_indent_sm": false,
+
+  // Reduce indent of the sidebar rows to medium
+  "theme_sidebar_indent_md": false,
+
+  // The default indent of the sidebar rows
+  "theme_sidebar_indent_lg": false,
+
+  // Increase indent of the sidebar rows to extra large
+  "theme_sidebar_indent_xl": false,
+
+  //
+  // >> 7.4 Sidebar Icons
+  //
+
+  // Hide file icons
+  "theme_sidebar_file_icons_hidden": false,
+
+  // Change folder icon to arrow
+  "theme_sidebar_folder_arrow": false,
+
+  // Show disclosure tree controls like in the default Sublime Text theme
+  "theme_sidebar_disclosure": false,
+
+  // Starting 3.0.0 `theme_sidebar_folder_monochrome` -> `theme_sidebar_folder_mono`
+  // Change folder color to monochrome
+  "theme_sidebar_folder_mono": false,
+
+  // Starting 3.0.0 by default close button of the opened files is visible on hover only,
+  // this option enables you to show it always
+  "theme_sidebar_close_always_visible": false,
+
+  // Enable a beautiful Material UI folder icon
+  "theme_sidebar_folder_materialized": false,
+
+  // Enable a beautiful Atom UI folder icon
+  "theme_sidebar_folder_atomized": false,
+
+  // Reduce the saturation level of the sidebar icons to low
+  "theme_sidebar_icon_saturation_lw": false,
+
+  // Reduce the saturation level of the sidebar icons to medium
+  "theme_sidebar_icon_saturation_md": false,
+
+  // Reduce the saturation level of the sidebar icons to high
+  "theme_sidebar_icon_saturation_hg": false,
+
+  // The default saturation level of the sidebar icons (extra high)
+  "theme_sidebar_icon_saturation_xh": false,
+
+  //
+  // >> 7.5 Sidebar Misc
+  //
+
+  // Show right border of the sidebar
+  "theme_sidebar_border": false,
+
+  // Disable sidebar heading indents
+  // Useful when you want to optimize the space used by the sidebar
+  "theme_sidebar_indent_top_level_disabled": false,
+
+  // Disable sidebar row background highlighting on hover
+  "theme_sidebar_highlight_text_only": false,
+
+  // Disable sidebar row background highlighting on selected items
+  "theme_sidebar_highlight_selected_text_only": false,
+
+  // Starting 3.0.0 sidebar labels have regular font weight by default,
+  // this option make them bold again
+  "theme_sidebar_heading_bold": false,
+
+  //
+  // > 8 Status Bar
+  // -----------------------------------
+  // Status bar options enable you to control the size and font size of
+  // the status bar.
+
+  //
+  // >> 8.1 Status Bar Size
+  //
+
+  // Reduce size of the status bar to extra small
+  "theme_statusbar_size_xs": false,
+
+  // The default size of the status bar
+  "theme_statusbar_size_sm": false,
+
+  // Increase size of the status bar to medium
+  "theme_statusbar_size_md": false,
+
+  // Increase size of the status bar to large
+  "theme_statusbar_size_lg": false,
+
+  // Increase size of the status bar to extra large
+  "theme_statusbar_size_xl": false,
+
+  //
+  // >> 8.2 Status Bar Font
+  //
+
+  // Make status bar labels bold
+  "theme_statusbar_label_bold": false,
+
+  // Reduce font size of the status bar to 10 px
+  "theme_statusbar_font_xs": false,
+
+  // The default font size of the status bar is 11 px
+  "theme_statusbar_font_sm": false,
+
+  // Increase font size of the status bar to 12 px
+  "theme_statusbar_font_md": false,
+
+  // Increase font size of the status bar to 13 px
+  "theme_statusbar_font_lg": false,
+
+  // Increase font size of the status bar to 14 px
+  "theme_statusbar_font_xl": false,
+
+  //
+  // >> 8.3 Status Bar Misc
+  //
+
+  // This option enables you to colorize the status bar
+  "theme_statusbar_colored": false,
+
+  // Enable a beautiful Material UI panel switcher icon
+  "theme_panel_switcher_materialized": false,
+
+  // Enable a beautiful Atom UI panel switcher icon
+  "theme_panel_switcher_atomized": false,
+
+  //
+  // > 9 Scrollbars
+  // -----------------------------------
+  // Scrollbars options enable you to control the appearance of the scrollbars.
+
+  // Set line scrollbars
+  "theme_scrollbar_line": false,
+
+  // Make colored scrollbars
+  // Works only with `theme_scrollbar_line: true`
+  "theme_scrollbar_colored": false,
+
+  // Enable rounded scrollbars
+  "theme_scrollbar_rounded": false,
+
+  // Enable semi overlayed scrollbars
+  // Works only with `"overlay_scroll_bars": "disabled"`
+  "theme_scrollbar_semi_overlayed": false,
+
+  //
+  // > 10 Tooltips
+  // -----------------------------------
+
+  // Reduce font size of the tooltips to 10 px
+  "theme_tooltips_font_xs": false,
+
+  // The default font size of the tooltips is 11 px
+  "theme_tooltips_font_sm": false,
+
+  // Increase font size of the tooltips to 12 px
+  "theme_tooltips_font_md": false,
+
+  // Increase font size of the tooltips to 13 px
+  "theme_tooltips_font_lg": false,
+
+  // Increase font size of the tooltips to 14 px
+  "theme_tooltips_font_xl": false,
+
+  //
+  // > 11 Grid
+  // -----------------------------------
+
+  // Set border size of the grid to 1px
+  "theme_grid_border_size_xs": false,
+
+  // Set border size of the grid to 4px
+  "theme_grid_border_size_sm": false,
+
+  // Set border size of the grid to 6px
+  "theme_grid_border_size_md": false,
+
+  // Set border size of the grid to 8px
+  "theme_grid_border_size_lg": false,
+
+  // Set border size of the grid to 10px
+  "theme_grid_border_size_xl": false,
+
+  //
+  // > 12 Popups
+  // -----------------------------------
+
+  // Starting 3.0.0 autocomplete selected item has no colored background,
+  // this option turns it back
+  "theme_autocomplete_item_selected_colored": false,
+
+  // Add popup border (also affects autocomplete border)
+  "theme_popup_border_visible": false,
+
+  //
+  // > 13 Minimap
+  // -----------------------------------
+
+  // Reduce the opacity of the minimap viewport to extra low
+  "theme_minimap_viewport_opacity_xlw": false,
+
+  // The default opacity of the minimap viewport (low)
+  "theme_minimap_viewport_opacity_lw": false,
+
+  // Increase the opacity of the minimap viewport to medium
+  "theme_minimap_viewport_opacity_md": false,
+
+  // Increase the opacity of the minimap viewport to high
+  "theme_minimap_viewport_opacity_hg": false,
+
+  // Increase the opacity of the minimap viewport to extra high
+  "theme_minimap_viewport_opacity_xh": false,
+
+  // Increase the opacity of the minimap viewport to extra extra high
+  "theme_minimap_viewport_opacity_xxh": false
+}

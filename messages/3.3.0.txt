@@ -1,0 +1,14 @@
+👓 Version 3.3.0
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Make `Python` icon more "pythonic"
+↪ Fix configurator when it's running right after installation
+↪ Fix popup styling in ST < 3119
+
+💅 Color Schemes
+-------------------
+
+↪ Improve markdown highlighting

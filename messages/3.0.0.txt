@@ -1,0 +1,49 @@
+👓 Version 3.0.0
+===========================================================================
+
+All renamed and new options can be found here: https://github.com/ihodev/sublime-boxy/wiki/v3.0.0.
+There aren't many breaking changes.
+
+💅 Themes
+-------------------
+
+↪ Add new accents
+↪ Add alternative ui icons
+↪ Review all file icons
+↪ Add sidebar indent options
+↪ Make top bar monochrome by default
+↪ Add new flavors of the bar logo
+↪ Add rounded scrollbar variant
+↪ Add optional sidebar disclosure buttons
+↪ Add colored status bar variant
+↪ Change quick panel & autocomplete highlighted background by default
+↪ Fix assets of the scrollbar line variant
+↪ Disable line highlight in widgets
+↪ Disable margin top when active bar option
+↪ Improve colored bar colors
+↪ Make loader monochrome
+↪ Make sidebar title font regular by default
+↪ Reduce theme size
+↪ Fix default size of the tooltips
+↪ Fix tab separator styles
+↪ Fix issue when tabs do not shrink enough when tab scrolling is disabled
+↪ Fix widget colors
+
+💅 Color Schemes
+-------------------
+
+↪ Add popup styles
+↪ Fix arguments are of the same color as functions
+↪ Fix highlighting on blocks with background color
+↪ Change colors of the guides
+↪ Improve json highlighting
+↪ Make cursor color the same as default foreground
+
+And many more exciting improvements and enhancements!
+See full change log: https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
+
+👍 Many thanks to
+-------------------
+
+@Lugoues for 5a90c95 & 1ece0df
+@sbine for 33309d7

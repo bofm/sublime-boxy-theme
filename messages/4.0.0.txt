@@ -1,0 +1,37 @@
+👓 Version 4.0.0
+===========================================================================
+
+Starting 4.0.0 `Presets` command is replaced by `Skins` package.
+Check it out: https://packagecontrol.io/packages/Skins﻿
+
+💅 Themes
+-------------------
+
+↪ Fix activation of the extras
+↪ Fix addon unloading
+↪ Fix behavior when `dirty` accent not working
+↪ Disable tab set line for mono accent
+↪ Reduce scrollbar padding
+↪ Fix tab height when `theme_tabset_line_visible`
+↪ Fix tab set line conflict with `theme_bar_margin` opts
+↪ Add `Skins` support
+↪ Add gear icon for *.ini syntax
+↪ Add new and review existing skins
+↪ Add numix accent
+↪ Add option for quick panel border
+↪ Add option to always use accent color for the dirty state
+↪ Add overlined variant of the tabs
+↪ Add solarized dark theme
+↪ Add solarized light theme
+↪ Add tab set line option
+
+💅 Color Schemes
+-------------------
+
+↪ Add solarized dark color scheme
+↪ Add solarized light color scheme
+
+👍 Many thanks to
+-------------------
+
+[@mattst](https://github.com/mattst) for d73c7f1 😉

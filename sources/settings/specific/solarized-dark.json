@@ -1,0 +1,76 @@
+{
+  "name": "Boxy Solarized Dark",
+  "semanticClass": "boxy.solarized.dark",
+  "uuid": "4fa54d0a-6286-4102-88de-476435182da8",
+  "ui": {
+    "id": "solarized-dark",
+    "variant": {
+      "id": "dark",
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "background": {
+      "base": {
+        "hex": "#002b36",
+        "rgb": "0, 43, 54"
+      },
+      "primary": {
+        "hex": "#08323c",
+        "rgb": "8, 50, 60"
+      },
+      "secondary": {
+        "hex": "#123a44",
+        "rgb": "18, 58, 68"
+      }
+    },
+    "foreground": {
+      "default": {
+        "hex": "#84999e",
+        "rgb": "132, 153, 158"
+      },
+      "highlighted": {
+        "hex": "#a9b7bb",
+        "rgb": "169, 183, 187"
+      },
+      "disabled": {
+        "hex": "#5e7a80",
+        "rgb": "94, 122, 128"
+      },
+      "selected": {
+        "hex": "#dae0e2",
+        "rgb": "218, 224, 226"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#002b36",
+    "caret": "#839496",
+    "foreground": "#839496",
+    "gutter": "#002b36",
+    "comment": "#586e75",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#dc322f",
+      "orange": "#cb4b16",
+      "yellow": "#b58900",
+      "green": "#859900",
+      "cyan": "#2aa198",
+      "blue": "#268bd2",
+      "purple": "#6c71c4",
+      "brown": "#7f2a1d",
+      "pink": "#cf4b56",
+      "violet": "#644ea0"
+    }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.solarized.dark.plain.tasks",
+      "uuid": "cdb95665-baa7-44c7-8cb1-ff4154fe0dff"
+    }
+  }
+}

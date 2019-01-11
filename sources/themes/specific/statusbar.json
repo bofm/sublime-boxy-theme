@@ -1,0 +1,16 @@
+// Status Bar Theme Specific Styles
+// ===========================================================================
+
+// Status Bar Container
+// ---------------------------------------------------------------------------
+
+{
+  "class": "status_bar",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "status_bar",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},

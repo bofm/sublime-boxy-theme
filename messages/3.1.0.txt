@@ -1,0 +1,15 @@
+👓 Version 3.1.0
+===========================================================================
+
+Starting 3.1.0 linter theme is included into the theme package. "Boxy Theme Addon - Linter Theme" will be removed soon.
+
+Activate the SublimeLinter gutter theme by modifying plugin's preferences file, which you can find using the menu item Preferences → Package Settings → SublimeLinter → Settings - User.
+
+"gutter_theme": "Packages/Boxy Theme/linter/Boxy.gutter-theme",
+
+
+💅 Themes
+-------------------
+
+↪ Add option to highlight text only for selected item in the sidebar
+↪ Add linter theme into the theme package

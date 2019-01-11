@@ -1,0 +1,76 @@
+// Sidebar Theme Specific Styles
+// ===========================================================================
+
+// Sidebar Container
+// ---------------------------------------------------------------------------
+
+{
+  "class": "sidebar_container",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "sidebar_container",
+  "settings": ["theme_sidebar_border"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+// Sidebar Tree
+// ---------------------------------------------------------------------------
+
+//
+// Sidebar Tree Defaults
+//
+
+{
+  "class": "sidebar_tree",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+//
+// Sidebar Tree Row
+//
+
+{
+  "class": "tree_row",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+// Sidebar Labels
+// ---------------------------------------------------------------------------
+
+//
+// Sidebar Heading
+//
+
+{
+  "class": "sidebar_heading",
+  "color": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "sidebar_heading",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "color": [<%= ui.foreground.highlighted.rgb %>]
+},
+
+//
+// Sidebar Entry
+//
+
+{
+  "class": "sidebar_label",
+  "color": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "sidebar_label",
+  "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+  "color": [<%= ui.foreground.highlighted.rgb %>]
+},
+
+{
+  "class": "sidebar_label",
+  "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+  "color": [<%= ui.foreground.selected.rgb %>, 255]
+},

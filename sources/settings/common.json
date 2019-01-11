@@ -1,0 +1,178 @@
+{
+  "author": "Ihor Oleksandrov",
+  "comment": "The most hackable theme for Sublime Text 3",
+  "ui": {
+    "base": {
+      "black": {
+        "hex": "#000000",
+        "rgb": "0, 0, 0"
+      },
+      "white": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "accents": [
+      {
+        "id": "blue",
+        "name": "Blue",
+        "hex": "#2497e3",
+        "rgb": "36, 151, 227",
+        "foreground": {
+          "default": {
+            "hex": "#b3dbf5",
+            "rgb": "179, 219, 245"
+          },
+          "highlighted": {
+            "hex": "#def0fb",
+            "rgb": "222, 240, 251"
+          }
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "hex": "#2ebc67",
+        "rgb": "46, 188, 103",
+        "foreground": {
+          "default": {
+            "hex": "#b6e8ca",
+            "rgb": "182, 232, 202"
+          },
+          "highlighted": {
+            "hex": "#d3f1de",
+            "rgb": "211, 241, 222"
+          }
+        }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "hex": "#f2683e",
+        "rgb": "242, 104, 62",
+        "foreground": {
+          "default": {
+            "hex": "#facabc",
+            "rgb": "250, 202, 188"
+          },
+          "highlighted": {
+            "hex": "#fde8e2",
+            "rgb": "253, 232, 226"
+          }
+        }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "hex": "#8955a2",
+        "rgb": "137, 85, 162",
+        "foreground": {
+          "default": {
+            "hex": "#d6c4df",
+            "rgb": "214, 196, 223"
+          },
+          "highlighted": {
+            "hex": "#ece5f0",
+            "rgb": "236, 229, 240"
+          }
+        }
+      },
+      {
+        "id": "tangerine",
+        "name": "Tangerine",
+        "hex": "#f2865e",
+        "rgb": "242, 134, 94",
+        "foreground": {
+          "default": {
+            "hex": "#fad5c7",
+            "rgb": "250, 213, 199"
+          },
+          "highlighted": {
+            "hex": "#fdede7",
+            "rgb": "253, 237, 231"
+          }
+        }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "hex": "#74cac2",
+        "rgb": "116, 202, 194",
+        "foreground": {
+          "default": {
+            "hex": "#ceedea",
+            "rgb": "206, 237, 234"
+          },
+          "highlighted": {
+            "hex": "#eaf7f6",
+            "rgb": "234, 247, 246"
+          }
+        }
+      },
+      {
+        "id": "lime",
+        "name": "Lime",
+        "hex": "#84bc44",
+        "rgb": "132, 188, 68",
+        "foreground": {
+          "default": {
+            "hex": "#d4e8be",
+            "rgb": "212, 232, 190"
+          },
+          "highlighted": {
+            "hex": "#ebf4e1",
+            "rgb": "235, 244, 225"
+          }
+        }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "hex": "#f07178",
+        "rgb": "240, 113, 120",
+        "foreground": {
+          "default": {
+            "hex": "#facdd0",
+            "rgb": "250, 205, 208"
+          },
+          "highlighted": {
+            "hex": "#fdeaeb",
+            "rgb": "253, 234, 235"
+          }
+        }
+      },
+      {
+        "id": "sky",
+        "name": "Sky",
+        "hex": "#528bff",
+        "rgb": "82, 139, 255",
+        "foreground": {
+          "default": {
+            "hex": "#c3d7ff",
+            "rgb": "195, 215, 255"
+          },
+          "highlighted": {
+            "hex": "#e5eeff",
+            "rgb": "229, 238, 255"
+          }
+        }
+      },
+      {
+        "id": "numix",
+        "name": "Numix",
+        "hex": "#d64937",
+        "rgb": "214, 73, 55",
+        "foreground": {
+          "default": {
+            "hex": "#f1bfb9",
+            "rgb": "241, 191, 185"
+          },
+          "highlighted": {
+            "hex": "#f6d8d4",
+            "rgb": "246, 216, 212"
+          }
+        }
+      }
+    ]
+  }
+}

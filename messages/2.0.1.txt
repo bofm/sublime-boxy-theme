@@ -1,0 +1,9 @@
+👓 Version 2.0.1
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Fix status bar font size
+↪ Fix tab line color
+↪ Add PostCSS icon

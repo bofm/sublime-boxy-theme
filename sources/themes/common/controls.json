@@ -1,0 +1,394 @@
+
+// Panel
+// ===========================================================================
+
+{
+  "class": "panel_control",
+  "layer0.inner_margin": [2, 2],
+  "layer0.opacity": 1.0,
+  "content_margin": [0, 1]
+},
+
+// Progress Bar
+// ===========================================================================
+
+{
+  "class": "progress_bar_control",
+  "layer0.opacity": 1.0
+},
+
+{
+  "class": "progress_gauge_control",
+  "layer0.opacity": 1.0,
+  "content_margin": [0, 6]
+},
+
+// Popup
+// ===========================================================================
+
+{
+  "class": "popup_control",
+  "content_margin": 0
+},
+
+// Labels
+// ===========================================================================
+
+{
+  "class": "label_control",
+  "font.bold" : true,
+  "font.size": 11
+},
+
+// Buttons
+// ===========================================================================
+
+// Defaults
+// ---------------------------------------------------------------------------
+
+//
+// Background
+//
+
+{
+  "class": "button_control",
+  "content_margin": [11, 12],
+  "min_size": [70, 0],
+
+  "layer0.opacity": 0.05,
+  "layer0.inner_margin": [10, 10],
+  "layer1.opacity": 0,
+  "layer1.inner_margin": [10, 10]
+},
+
+{
+  "class": "button_control",
+  "attributes": ["hover"],
+  "layer0.opacity": 0.09
+},
+
+// Groups
+// ---------------------------------------------------------------------------
+
+{
+  "class": "icon_button_control",
+  "content_margin": [11, 11],
+
+  "layer0.opacity": 0,
+  "layer0.inner_margin": [10, 10],
+  "layer1.opacity": 0,
+  "layer1.inner_margin": [10, 10]
+},
+
+// Close
+// ---------------------------------------------------------------------------
+
+{
+  "class": "panel_close_button",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "panel_close_button",
+  "attributes": ["hover"],
+  "layer0.opacity": 0.75
+},
+
+// Icons
+// ---------------------------------------------------------------------------
+
+//
+// Regex Search Button
+//
+
+{
+  "class": "icon_regex",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_regex",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_regex",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Case Sensitive Search Button
+//
+
+{
+  "class": "icon_case",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_case",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_case",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Match Whole Word Search Button
+//
+
+{
+  "class": "icon_whole_word",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_whole_word",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_whole_word",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Search Wrap Button
+//
+
+{
+  "class": "icon_wrap",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_wrap",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_wrap",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Show Search Context Button
+//
+
+{
+  "class": "icon_context",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_context",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_context",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Use Search Buffer
+//
+
+{
+  "class": "icon_use_buffer",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_use_buffer",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_use_buffer",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Reverse Search Direction Button
+//
+
+{
+  "class": "icon_reverse",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_reverse",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_reverse",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Search In Selection Button
+//
+
+{
+  "class": "icon_in_selection",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_in_selection",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_in_selection",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Preserve Case Button
+//
+
+{
+  "class": "icon_preserve_case",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_preserve_case",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_preserve_case",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+//
+// Highlight Results Button
+//
+
+{
+  "class": "icon_highlight",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "icon_highlight",
+  "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
+  "layer0.opacity": 0.75
+},
+
+{
+  "class": "icon_highlight",
+  "settings": ["theme_accent_mono"],
+  "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+  "layer0.opacity": 1
+},
+
+// Fields
+// ===========================================================================
+
+// Defaults
+// ---------------------------------------------------------------------------
+
+//
+// Background
+//
+
+{
+  "class": "text_line_control",
+  "layer0.opacity": 1.0,
+  "layer0.inner_margin": [20, 5],
+  "tint_index": 1,
+  "content_margin": [11, 7]
+},
+
+//
+// Labels
+//
+
+{
+  "class": "label_control",
+  "parents": [{"class": "panel_control"}],
+  "font.bold": true,
+  "font.size": 11
+},
+
+// Inside Overlay Control
+// ---------------------------------------------------------------------------
+
+{
+  "class": "text_line_control",
+  "parents": [{"class": "overlay_control"}],
+  "layer0.opacity": 1.0,
+  "layer0.inner_margin": [24, 0, 24, 3],
+  "layer0.draw_center": true,
+  "content_margin": [24, 8]
+},
+
+// Field Dropdown
+// ---------------------------------------------------------------------------
+
+//
+// Defaults
+//
+
+{
+  "class": "dropdown_button_control",
+  "content_margin": [8, 8],
+  "layer0.opacity": 0.5,
+  "layer0.inner_margin": [0, 0]
+},
+
+//
+// Hovered
+//
+
+{
+  "class": "dropdown_button_control",
+  "attributes": ["hover"],
+  "layer0.opacity": 0.75
+},

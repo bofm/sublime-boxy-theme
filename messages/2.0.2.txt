@@ -1,0 +1,16 @@
+👓 Version 2.0.2
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Fix styles of the tab separator
+↪ Add monochrome variant of the folders
+↪ Add SublimeLinter theme as addon
+↪ Add addons to change the font size of text inputs
+↪ Add addon to change Sublime Text UI font face
+
+💅 Color Schemes
+-------------------
+
+↪ Add guide colors

@@ -1,0 +1,76 @@
+{
+  "name": "Boxy Tomorrow",
+  "semanticClass": "boxy.tomorrow.dark",
+  "uuid": "21bb5fd7-098f-4cdd-86d7-f0b1a4a508ff",
+  "ui": {
+    "id": "tomorrow",
+    "variant": {
+      "id": "dark",
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "background": {
+      "base": {
+        "hex": "#1d1f21",
+        "rgb": "29, 31, 33"
+      },
+      "primary": {
+        "hex": "#232426",
+        "rgb": "35, 36, 38"
+      },
+      "secondary": {
+        "hex": "#2a2b2d",
+        "rgb": "42, 43, 45"
+      }
+    },
+    "foreground": {
+      "default": {
+        "hex": "#919293",
+        "rgb": "145, 146, 147"
+      },
+      "highlighted": {
+        "hex": "#b2b3b3",
+        "rgb": "178, 179, 179"
+      },
+      "disabled": {
+        "hex": "#707072",
+        "rgb": "112, 112, 114"
+      },
+      "selected": {
+        "hex": "#dddede",
+        "rgb": "221, 222, 222"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#1d1f21",
+    "caret": "#c5c8c6",
+    "foreground": "#c5c8c6",
+    "gutter": "#1d1f21",
+    "comment": "#969896",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#cc6666",
+      "orange": "#de935f",
+      "yellow": "#f0c674",
+      "green": "#b5bd68",
+      "cyan": "#8abeb7",
+      "blue": "#81a2be",
+      "purple": "#b294bb",
+      "brown": "#a3685a",
+      "pink": "#d75a64",
+      "violet": "#9f74ab"
+    }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.tomorrow.dark.plain.tasks",
+      "uuid": "fbc4437b-7061-4481-877f-0e6f82dda51d"
+    }
+  }
+}

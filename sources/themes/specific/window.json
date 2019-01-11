@@ -1,0 +1,12 @@
+// Window Theme Specific Styles
+// ===========================================================================
+
+{
+  "class": "sheet_container_control",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "dialog",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},

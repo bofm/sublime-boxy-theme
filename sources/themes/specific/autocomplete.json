@@ -1,0 +1,25 @@
+// Autocomplete Theme Specific Styles
+// ===========================================================================
+
+// Autocomplete Background
+// ---------------------------------------------------------------------------
+
+{
+  "class": "auto_complete",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "auto_complete",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+// Autocomplete Foreground
+// ---------------------------------------------------------------------------
+
+{
+  "class": "auto_complete_label",
+  "fg": [<%= ui.foreground.default.rgb %>],
+  "selected_fg": [<%= ui.foreground.highlighted.rgb %>]
+},

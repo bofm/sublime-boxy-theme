@@ -1,0 +1,73 @@
+// Tooltips Options
+// ===========================================================================
+
+// Tooltips Font Options
+// ---------------------------------------------------------------------------
+
+//
+// Global
+//
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_xs"],
+  "font.size": 10
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_sm"],
+  "font.size": 11
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_md"],
+  "font.size": 12
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_lg"],
+  "font.size": 13
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_font_xl"],
+  "font.size": 14
+},
+
+//
+// Control
+//
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_xs"],
+  "font.size": 10
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_sm"],
+  "font.size": 11
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_md"],
+  "font.size": 12
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_lg"],
+  "font.size": 13
+},
+
+{
+  "class": "tool_tip_label_control",
+  "settings": ["theme_tooltips_font_xl"],
+  "font.size": 14
+},

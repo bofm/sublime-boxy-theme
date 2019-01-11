@@ -1,0 +1,58 @@
+// Grid Theme Specific Styles
+// ===========================================================================
+
+// Grid Border Color
+// ---------------------------------------------------------------------------
+
+{
+  "class": "grid_layout_control",
+  "border_color": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_bar_margin_top_sm"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_bar_margin_top_md"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_bar_margin_top_lg"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_sm"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_md"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_lg"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["theme_grid_border_size_xl"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "grid_layout_control",
+  "settings": ["!enable_tab_scrolling"],
+  "border_color": [<%= ui.background.primary.rgb %>]
+},

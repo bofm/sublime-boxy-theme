@@ -1,0 +1,15 @@
+👓 Version 3.2.0
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Fix base tooltip font size
+↪ Simplify button styling
+↪ Add changelog command
+↪ Add dirty accents
+↪ Add find panel (console, output panel) padding options
+↪ Add internal docs
+↪ Add preset activator
+↪ Add theme activator
+↪ Add theme configurator

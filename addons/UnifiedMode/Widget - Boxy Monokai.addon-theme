@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>author</key>
+    <string>Ihor Oleksandrov</string>
+    <key>comment</key>
+    <string>The most hackable theme for Sublime Text 3</string>
+    <key>name</key>
+    <string>Boxy Monokai</string>
+    <key>settings</key>
+    <array>
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#2e2f29</string>
+          <key>caret</key>
+          <string>#f8f8f2</string>
+          <key>foreground</key>
+          <string>#f8f8f2</string>
+          <key>gutter</key>
+          <string>#2e2f29</string>
+          <key>invisibles</key>
+          <string>#75715e</string>
+          <key>lineHighlight</key>
+          <string>#2e2f29</string>
+          <key>selection</key>
+          <string>#ffffff16</string>
+          <key>selectionBorder</key>
+          <string>#ffffff16</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+          <key>foreground</key>
+          <string>#75715e</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword, storage</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ae81ff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.character-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#f92672</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#fd971f</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>string, keyword.operator.quantifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a6e22e</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#a1efe4</string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

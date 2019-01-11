@@ -1,0 +1,43 @@
+
+// Autocomplete Dropdown
+// ===========================================================================
+
+{
+  "class": "popup_control",
+  "content_margin": [0, 0]
+},
+
+// Autocomplete Sizes
+// ===========================================================================
+
+{
+  "class": "auto_complete",
+  "row_padding": [5, 5],
+  "layer0.opacity": 1.0
+},
+
+// Autocomplete Rows
+// ===========================================================================
+
+{
+  "class": "table_row",
+  "layer0.opacity": 0,
+  "layer0.inner_margin": [1, 1],
+  "layer1.inner_margin": [1, 1],
+  "layer1.opacity": 0
+},
+
+{
+  "class": "table_row",
+  "attributes": ["selected"],
+  "layer0.opacity": 1.0,
+  "layer1.opacity": 0
+},
+
+{
+  "class": "table_row",
+  "attributes": ["selected"],
+  "settings": ["!theme_accent_mono", "theme_autocomplete_item_selected_colored"],
+  "layer0.opacity": 0,
+  "layer1.opacity": 1.0
+},

@@ -1,0 +1,76 @@
+{
+  "name": "Boxy Monokai",
+  "semanticClass": "boxy.monokai.dark",
+  "uuid": "29b34c22-7302-43f6-b097-91a33314807b",
+  "ui": {
+    "id": "monokai",
+    "variant": {
+      "id": "dark",
+      "name": "Dark",
+      "highlight": {
+        "hex": "#ffffff",
+        "rgb": "255, 255, 255"
+      }
+    },
+    "background": {
+      "base": {
+        "hex": "#272822",
+        "rgb": "39, 40, 34"
+      },
+      "primary": {
+        "hex": "#2e2f29",
+        "rgb": "46, 47, 41"
+      },
+      "secondary": {
+        "hex": "#363731",
+        "rgb": "54, 55, 49"
+      }
+    },
+    "foreground": {
+      "default": {
+        "hex": "#979794",
+        "rgb": "151, 151, 148"
+      },
+      "highlighted": {
+        "hex": "#b3b3b1",
+        "rgb": "179, 179, 177"
+      },
+      "disabled": {
+        "hex": "#777874",
+        "rgb": "119, 120, 116"
+      },
+      "selected": {
+        "hex": "#dfdfde",
+        "rgb": "223, 223, 222"
+      }
+    }
+  },
+  "scheme": {
+    "background": "#272822",
+    "caret": "#f8f8f2",
+    "foreground": "#f8f8f2",
+    "gutter": "#272822",
+    "comment": "#75715e",
+    "base": {
+      "white": "#ffffff",
+      "black": "#000000",
+      "red": "#f92672",
+      "orange": "#fd971f",
+      "yellow": "#e6db74",
+      "green": "#a6e22e",
+      "cyan": "#a1efe4",
+      "blue": "#66d9ef",
+      "purple": "#ae81ff",
+      "brown": "#cc6633",
+      "pink": "#f94989",
+      "violet": "#8d62da"
+    }
+  },
+  "extras": {
+    "plainTasks": {
+      "name": "Plain Tasks",
+      "semanticClass": "boxy.monokai.dark.plain.tasks",
+      "uuid": "283e6e2b-e31c-47a3-807f-28467f2f19d8"
+    }
+  }
+}

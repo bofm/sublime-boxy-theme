@@ -1,0 +1,44 @@
+
+// Status Bar Labels
+// ===========================================================================
+
+{
+  "class": "label_control",
+  "parents": [{"class": "status_bar"}],
+  "font.bold": false
+},
+
+// Status Bar Container
+// ===========================================================================
+
+{
+  "class": "status_bar",
+  "layer0.opacity": 1.0,
+  "layer0.inner_margin": [2, 2],
+  "content_margin": [5, 4]
+},
+
+{
+  "class": "status_container",
+  "content_margin": [5, 2]
+},
+
+{
+  "class": "status_button",
+  "min_size": [96, 0]
+},
+
+// Status Bar Panel Switcher
+// ===========================================================================
+
+{
+  "class": "panel_button_control",
+  "layer0.opacity": 0.5,
+  "content_margin": [8, 8]
+},
+
+{
+  "class": "panel_button_control",
+  "attributes": ["hover"],
+  "layer0.opacity": 0.75
+},

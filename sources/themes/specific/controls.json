@@ -1,0 +1,52 @@
+// Controls Theme Specific Styles
+// ===========================================================================
+
+// Panel
+// ---------------------------------------------------------------------------
+
+{
+  "class": "panel_control",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "panel_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+// Progress Bar
+// ---------------------------------------------------------------------------
+
+{
+  "class": "progress_bar_control",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "progress_bar_control",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+// Labels
+// ---------------------------------------------------------------------------
+
+{
+  "class": "label_control",
+  "color": [<%= ui.foreground.default.rgb %>]
+},
+
+// Fields
+// ---------------------------------------------------------------------------
+
+{
+  "class": "text_line_control",
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/fields/field.png"
+},
+
+{
+  "class": "text_line_control",
+  "parents": [{"class": "overlay_control"}],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/fields/field_overlay.png"
+},

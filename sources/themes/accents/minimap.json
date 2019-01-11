@@ -1,0 +1,19 @@
+// Minimap Mono Accent
+// ===========================================================================
+
+{
+  "class": "minimap_control",
+  "settings": ["theme_accent_mono"],
+  "viewport_color": [<%= ui.variant.highlight.rgb %>, 40]
+},
+
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Minimap <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+{
+  "class": "minimap_control",
+  "settings": ["!theme_accent_mono"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "viewport_color": [<%= ui.accents[i].rgb %>, 75]
+},
+<% } %>

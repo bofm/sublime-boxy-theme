@@ -1,0 +1,148 @@
+// Tabs Theme Specific Styles
+// ===========================================================================
+
+// Tabset
+// ---------------------------------------------------------------------------
+
+//
+// Tabset Defaults
+//
+
+{
+  "class": "tabset_control",
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+// Tab
+// ---------------------------------------------------------------------------
+
+//
+// Tab Defaults
+//
+
+{
+  "class": "tab_control",
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/tabs/tab.png",
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_rounded", "!theme_bar"],
+  "layer1.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/tabs/tab_hovered_rounded.png"
+},
+
+{
+  "class": "tab_control",
+  "settings": ["theme_tab_selected_transparent"],
+  "attributes": ["selected"],
+  "layer0.opacity": 1.0,
+  "layer1.opacity": 0,
+  "layer2.opacity": 0
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_tab_highlight_text_only", "theme_tab_separator"],
+  "layer3.opacity": 0.1
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_tab_rounded", "!theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.15
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_sm", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.15
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_md", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.15
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_margin_top_lg", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.15
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.15
+},
+
+{
+  "class": "tab_control",
+  "attributes": ["hover"],
+  "settings": ["theme_bar_colored", "theme_tab_separator", "theme_tab_highlight_text_only"],
+  "layer3.opacity": 0.2
+},
+
+//
+// Tab Labels
+//
+
+{
+  "class": "tab_label",
+  "fg": [<%= ui.foreground.default.rgb %>]
+},
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+  "fg": [<%= ui.foreground.highlighted.rgb %>]
+},
+
+// Light Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "fg": [<%= ui.base.black.rgb %>, 218]
+},
+
+// Medium Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Medium Dark Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_medium_dark"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Dark Color Scheme
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected", "file_dark"]}],
+  "fg": [<%= ui.base.white.rgb %>, 218]
+},
+
+// Tab Transparet Selected
+
+{
+  "class": "tab_label",
+  "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+  "settings": ["theme_tab_selected_transparent"],
+  "fg": [<%= ui.foreground.selected.rgb %>]
+},
+

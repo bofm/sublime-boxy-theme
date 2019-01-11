@@ -1,0 +1,84 @@
+// Overlays Theme Specific Styles
+// ===========================================================================
+
+// Overlay Control
+// ---------------------------------------------------------------------------
+
+{
+  "class": "overlay_control",
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay.png"
+},
+
+{
+  "class": "overlay_control",
+  "settings": ["theme_quick_panel_border_visible"],
+  "layer2.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight_overlay.png",
+  "layer2.opacity": 0.05,
+  "layer2.inner_margin": [15, 25]
+},
+
+{
+  "class": "overlay_control",
+  "settings": ["theme_unified"],
+  "layer0.texture": "Boxy Theme/assets/specific/<%= ui.id %>/overlays/overlay_unified.png"
+},
+
+// Quick Panel
+// ---------------------------------------------------------------------------
+
+//
+// Quick Panel Defaults
+//
+
+{
+  "class": "quick_panel",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "quick_panel",
+  "settings": ["theme_unified"],
+  "layer0.tint": [<%= ui.background.primary.rgb %>]
+},
+
+{
+  "class": "quick_panel_row",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>, 0]
+},
+
+//
+// Quick Panel Mini
+//
+
+{
+  "class": "mini_quick_panel",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>]
+},
+
+{
+  "class": "mini_quick_panel_row",
+  "layer0.tint": [<%= ui.background.secondary.rgb %>, 0]
+},
+
+//
+// Quick Panel Labels
+//
+
+{
+  "class": "quick_panel_label",
+  "fg": [<%= ui.foreground.default.rgb %>, 255],
+  "selected_fg": [<%= ui.foreground.highlighted.rgb %>, 255]
+},
+
+{
+  "class": "quick_panel_label",
+  "parents": [{"class": "overlay_control"}],
+  "fg": [<%= ui.foreground.default.rgb %>, 255],
+  "selected_fg": [<%= ui.foreground.highlighted.rgb %>, 255]
+},
+
+{
+  "class": "quick_panel_path_label",
+  "fg": [<%= ui.foreground.disabled.rgb %>, 255],
+  "selected_fg": [<%= ui.foreground.disabled.rgb %>, 255]
+},

@@ -1,0 +1,18 @@
+👓 Version 3.4.0
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Fix gutter icons of the Color Highlighter for the light themes
+↪ Add extras activator
+↪ Return previous python icon
+
+💅 Color Schemes
+-------------------
+
+↪ Improve markdown highlighting
+↪ Make active guide monochrome
+↪ Add Plain Notes support
+↪ Add Plain Tasks support
+

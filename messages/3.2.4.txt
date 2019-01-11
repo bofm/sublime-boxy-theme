@@ -1,0 +1,11 @@
+👓 Version 3.2.4
+===========================================================================
+
+Don't forget to remove other custom themes. Due to this:
+https://forum.sublimetext.com/t/sublime-text-3-file-icons-in-sidebar/21134/4
+
+💅 Themes
+-------------------
+
+↪ Fix Coffee Script icon
+↪ Fix R icon

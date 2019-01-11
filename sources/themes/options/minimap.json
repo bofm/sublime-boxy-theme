@@ -1,0 +1,91 @@
+// Minimap  Options
+// ===========================================================================
+
+// Minimap Viewport Opacity
+// ---------------------------------------------------------------------------
+
+//
+// Minimap Viewport Always Visible
+//
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_xlw"],
+  "viewport_opacity": 0.2
+},
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_lw"],
+  "viewport_opacity": 0.4
+},
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_md"],
+  "viewport_opacity": 0.6
+},
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_hg"],
+  "viewport_opacity": 0.8
+},
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_xh"],
+  "viewport_opacity": 1.0
+},
+
+{
+  "class": "minimap_control",
+  "settings": ["always_show_minimap_viewport", "theme_minimap_viewport_opacity_xxh"],
+  "viewport_opacity": 1.2
+},
+
+//
+// Minimap Viewport Visible On Hover
+//
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_xlw"],
+  "viewport_opacity": { "target": 0.2, "speed": 20.0, "interpolation": "smoothstep" }
+},
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_lw"],
+  "viewport_opacity": { "target": 0.4, "speed": 20.0, "interpolation": "smoothstep" }
+},
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_md"],
+  "viewport_opacity": { "target": 0.6, "speed": 20.0, "interpolation": "smoothstep" }
+},
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_hg"],
+  "viewport_opacity": { "target": 0.8, "speed": 20.0, "interpolation": "smoothstep" }
+},
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_xh"],
+  "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" }
+},
+
+{
+  "class": "minimap_control",
+  "attributes": ["hover"],
+  "settings": ["!always_show_minimap_viewport", "theme_minimap_viewport_opacity_xxh"],
+  "viewport_opacity": { "target": 1.2, "speed": 20.0, "interpolation": "smoothstep" }
+},

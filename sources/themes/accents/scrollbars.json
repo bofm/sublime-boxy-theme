@@ -1,0 +1,59 @@
+{
+  "class": "puck_control",
+  "settings": ["theme_scrollbar_colored", "!theme_accent_mono"],
+  "layer0.opacity": 1.0
+},
+
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+// Scrollbars <%= ui.accents[i].name %> Accent
+// ===========================================================================
+
+// Scrollbar
+// ---------------------------------------------------------------------------
+
+//
+// Vertical Scrollbar Puck
+//
+
+{
+  "class": "puck_control",
+  "settings": ["!theme_accent_mono", "theme_scrollbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_line.png"
+},
+
+//
+// Horizontal Scrollbar Puck
+//
+
+{
+  "class": "puck_control",
+  "settings": ["!theme_accent_mono", "theme_scrollbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "attributes": ["horizontal"],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_line.png"
+},
+
+
+// Scrollbar Overlayed
+// ---------------------------------------------------------------------------
+
+//
+// Vertical Scrollbar Puck
+//
+
+{
+  "class": "puck_control",
+  "settings": ["overlay_scroll_bars", "!theme_accent_mono", "theme_scrollbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_vertical_overlay_line.png"
+},
+
+//
+// Horizontal Scrollbar Puck
+//
+
+{
+  "class": "puck_control",
+  "settings": ["overlay_scroll_bars", "!theme_accent_mono", "theme_scrollbar_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "attributes": ["horizontal"],
+  "layer0.texture": "Boxy Theme/assets/accents/<%= ui.accents[i].id %>/scrollbars/puck_horizontal_overlay_line.png"
+},
+<% } %>

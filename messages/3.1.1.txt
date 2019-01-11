@@ -1,0 +1,9 @@
+👓 Version 3.1.1
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Fix regression bug of the file type icons
+↪ Make tab separators more visible
+↪ Set small top margin by default when rounded tabs are activated

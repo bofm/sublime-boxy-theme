@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>author</key>
+    <string><%= author %></string>
+    <key>comment</key>
+    <string><%= comment %></string>
+    <key>name</key>
+    <string><%= name %></string>
+    <key>settings</key>
+    <array>
+      <dict>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string><%= ui.background.primary.hex %></string>
+          <key>caret</key>
+          <string><%= scheme.caret %></string>
+          <key>foreground</key>
+          <string><%= scheme.foreground %></string>
+          <key>gutter</key>
+          <string><%= ui.background.primary.hex %></string>
+          <key>invisibles</key>
+          <string><%= scheme.comment %></string>
+          <key>lineHighlight</key>
+          <string><%= ui.background.primary.hex %></string>
+          <key>selection</key>
+          <string><%= ui.variant.highlight.hex %>16</string>
+          <key>selectionBorder</key>
+          <string><%= ui.variant.highlight.hex %>16</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Comment</string>
+        <key>scope</key>
+        <string>comment</string>
+        <key>settings</key>
+        <dict>
+          <key>fontStyle</key>
+          <string>italic</string>
+          <key>foreground</key>
+          <string><%= scheme.comment %></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Keyword</string>
+        <key>scope</key>
+        <string>keyword, storage</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string><%= scheme.base.purple %></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>keyword.control.character-class</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string><%= scheme.base.red %></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string><%= scheme.base.orange %></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>string, keyword.operator.quantifier</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string><%= scheme.base.green %></string>
+        </dict>
+      </dict>
+      <dict>
+        <key>scope</key>
+        <string>constant.character.escape</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string><%= scheme.base.cyan %></string>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>

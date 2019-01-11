@@ -1,0 +1,49 @@
+// Autocomplete Accents
+// ===========================================================================
+
+{
+  "class": "auto_complete_label",
+  "settings": ["theme_accent_mono"],
+  "match_fg": [<%= ui.variant.highlight.rgb %>]
+},
+
+{
+  "class": "auto_complete_label",
+  "settings": ["theme_accent_mono"],
+  "selected_match_fg": [<%= ui.variant.highlight.rgb %>]
+},
+
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+{
+  "class": "auto_complete_label",
+  "settings": ["!theme_accent_mono", <% if (ui.accents[i].id != "blue") { %>"theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "match_fg": [<%= ui.accents[i].rgb %>]
+},
+
+{
+  "class": "auto_complete_label",
+  "settings": ["!theme_accent_mono", <% if (ui.accents[i].id != "blue") { %>"theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "selected_match_fg": [<%= ui.accents[i].rgb %>]
+},
+<% } %>
+
+{
+  "class": "auto_complete_label",
+  "settings": ["theme_autocomplete_item_selected_colored", "!theme_accent_mono"],
+  "selected_fg": [<%= ui.base.white.rgb %>],
+  "selected_match_fg": [<%= ui.base.white.rgb %>]
+},
+
+{
+  "class": "table_row",
+  "layer0.texture": "Boxy Theme/assets/variants/<%= ui.variant.id %>/highlight.png"
+},
+
+<% for (var i = 0; i < ui.accents.length; i++) { %>
+{
+  "class": "table_row",
+  "settings": ["!theme_accent_mono", "theme_autocomplete_item_selected_colored"<% if (ui.accents[i].id != "blue") { %>, "theme_accent_<%= ui.accents[i].id %>"<% } %>],
+  "layer1.tint": [<%= ui.accents[i].rgb %>]
+},
+<% } %>
+

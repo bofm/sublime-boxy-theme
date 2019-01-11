@@ -1,0 +1,67 @@
+👓 Version 1.1.1
+================================================================================
+
+There are not many changes in this version. I can say it just notify you
+about future breaking changes. But you can view CHANGELOG:
+https://github.com/ihodev/sublime-boxy/blob/master/CHANGELOG.md
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+📣 BREAKING CHANGES IN 2.0.0: MEET BOXY!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+Due to unrelated meaning of OTTO in some languages I've been forced to change
+the theme name. Starting from now otto is BOXY! It's short, memorable and
+inspired by gift boxes.
+
+
+Versioning & Deprecation
+------------------------
+
+There will be no 2.0.0 release of OTTO, instead it will be released as
+BOXY 2.0.0.
+
+Existing versions of OTTO will be left working until next release.
+But you can also install them manually anytime.
+SEE THE WIKI: https://github.com/ihodev/sublime-boxy/wiki
+
+
+Troubleshooting
+------------------------
+
+You will need to reinstall theme when Boxy 2.0.0 will be released because it
+requires hard references for different stuff.
+
+I recommend you:
+1. Install `BOXY` manually before it will be released:
+   https://github.com/ihodev/sublime-boxy/wiki/Get-It
+2. Review your settings: https://github.com/ihodev/sublime-boxy/wiki/Settings
+3. Install via Package Control when BOXY 2.0.0 will be available.
+
+The easiest way to reinstall is using Sublime Package Control, where BOXY is
+listed as `Boxy Theme`.
+
+1. Activate default Sublime Text color scheme using menu item
+   `Preferences -> Color Scheme -> Color Scheme - Default -> Monokai Bright`
+2. Open Command Palette using menu item `Tools -> Command Palette...`
+3. Choose `Package Control: Remove Package`
+4. Find `Theme - Otto` and hit `Enter`
+5. Choose `Package Control: Install Package`
+6. Find `Boxy Theme` and hit `Enter`
+7. Review your settings and activation.
+
+
+Settings
+------------------------
+
+Please, review all your theme options after update:
+https://github.com/ihodev/sublime-boxy/wiki/Settings
+
+Almost all of them were already reviewed in 2.0.0.
+
+
+I'm sorry
+------------------------
+
+for the inconvenience caused to you 🙍

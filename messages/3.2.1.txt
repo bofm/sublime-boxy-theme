@@ -1,0 +1,14 @@
+👓 Version 3.2.1
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Remove the default key binding of the theme configurator due to conflicts
+  with default OS key bindings. You can change it manually by modifying your
+  Sublime Text User Key Bindings.
+
+{
+    "keys": ["<shortcut>"],
+    "command": "boxy_config"
+}

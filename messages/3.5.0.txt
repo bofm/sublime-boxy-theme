@@ -1,0 +1,17 @@
+👓 Version 3.5.0
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Add a very large tab variant
+↪ Add a very small variant of the find panel
+↪ Add monochrome accent
+↪ Add semi overlayed scrollbars
+↪ Add unified mode
+
+💅 Color Schemes
+-------------------
+
+↪ Add Bracket Highlighter support
+↪ Add TypeScript popup styles

@@ -1,0 +1,17 @@
+👓 Version 1.1.0
+===========================================================================
+
+💅 Themes
+-------------------
+
+↪ Add global settings
+↪ Add font size settings
+↪ Add option to hide tab separators
+
+
+💅 Color Schemes
+-------------------
+
+↪ Enable syntax highlighting in the text selection
+↪ Improve text selection readability
+↪ Fix highlighting of the javascript methods
