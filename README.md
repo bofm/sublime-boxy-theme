@@ -1,6 +1,6 @@
-## This repo is the contents of `Boxy Theme.sublime-package` v5.2.0.
+## This repo is the content of `Boxy Theme.sublime-package` v5.2.0.
 
-For some reason the author of Boxy Theme for Sublime Text decided to remove all his projects from Guthub. <https://github.com/ihodev/sublime-boxy> repo has been deleted along with all it's forks, thanks to Github. I found `Boxy Theme.sublime-package` file in my `Installed Packages` dir on MacOS and put it's contents here.
+For some reason the author of Boxy Theme for Sublime Text decided to remove all his projects from Guthub. <https://github.com/ihodev/sublime-boxy> repo has been deleted along with all it's forks, thanks to Github. I found `Boxy Theme.sublime-package` file in my `Installed Packages` dir on MacOS and put it's content here.
 
 ### Links:
 
